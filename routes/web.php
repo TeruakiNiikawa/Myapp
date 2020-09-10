@@ -20,3 +20,4 @@ Route::get('post','PostController@show');
 Route::get('mypage','MypageController@show');
 Route::get('message','MessageController@show');
 Route::get('question','QuestionController@show');
+Route::get('login','LoginController@show');
