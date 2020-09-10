@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>mach</title>
+        <title>match</title>
     </head>
     <body>
-        <h1>mach画面</h1>
+        <h1>match画面</h1>
     </body>
 </html>

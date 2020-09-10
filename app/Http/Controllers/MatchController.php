@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MachController extends Controller
+class MatchController extends Controller
 {
    public function top()
    {
-       return view('mach.mach');
+       return view('match.match');
    }
 }

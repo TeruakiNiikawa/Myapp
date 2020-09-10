@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('mach','MachController@top');
+Route::get('match','MatchController@top');
 Route::get('post','PostController@show');
 Route::get('mypage','MypageController@show');
 Route::get('message','MessageController@show');
