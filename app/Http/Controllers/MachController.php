@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class MachController extends Controller
 {
-   public function add()
+   public function top()
    {
-       return view('mach.create');
+       return view('mach.mach');
    }
 }

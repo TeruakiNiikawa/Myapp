@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class QuestionController extends Controller
 {
-    public function add()
+    public function show()
     {
-        return view('question.create');
+        return view('question.question');
     }
 }

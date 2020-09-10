@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('mach/create','MachController@add');
-Route::get('post/create','PostController@add');
-Route::get('mypage/create','MypageController@add');
-Route::get('message/create','MessageController@add');
-Route::get('question/create','QuestionController@add');
+Route::get('mach','MachController@top');
+Route::get('post','PostController@show');
+Route::get('mypage','MypageController@show');
+Route::get('message','MessageController@show');
+Route::get('question','QuestionController@show');
