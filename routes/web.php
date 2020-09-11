@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('match','MatchController@top')->middleware('auth');
-Route::get('post','PostController@show');
+Route::get('post','PostController@show')->middleware('auth');
 Route::get('mypage','MypageController@show');
 Route::get('message','MessageController@show');
 Route::get('question','QuestionController@show');
