@@ -1,13 +1,27 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.layout')
 
-        <title>question</title>
-    </head>
-    <body>
-        <h1>お問い合わせ画面</h1>
-    </body>
-</html>
+
+{{-- admin.blade.phpの@yield('title')に'ニュースの新規作成'を埋め込む --}}
+@section('title', 'question')
+
+{{-- admin.blade.phpの@yield('content')に以下のタグを埋め込む --}}
+@section('content')
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>お問い合わせ画面</h2>
+                <h3>Welcome</h3></h3>
+            </div>
+            <form action="{{action('QuestionController@show')}}" method="post">
+
+<input type="text" name="name">
+
+<input type="text" name="email">
+
+<textarea name="message"></textarea>
+
+<input type="submit" value="Confirm">
+</form>
+        </div>
+    </div>
+@endsection

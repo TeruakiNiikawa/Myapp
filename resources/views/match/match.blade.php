@@ -12,6 +12,7 @@
                 <h2>match画面</h2>
                 <h3>Welcome</h3></h3>
             </div>
+            <button type="button">Hit Me</button>
         </div>
     </div>
 @endsection
