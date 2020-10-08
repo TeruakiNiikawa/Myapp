@@ -1,7 +1,7 @@
 body {
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ff0;
+  background-color: #00f;
   color: #00ffff;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .table-dark {
@@ -23,7 +23,7 @@ body {
 }
 
 .list-group-item {
-  border-color: #fff;
+  border-color: #000;
   background-color: #008000;
 }
 

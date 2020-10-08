@@ -49693,16 +49693,64 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/message.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/message.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/mypage.scss":
+/*!************************************!*\
+  !*** ./resources/sass/mypage.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/post.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/post.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/question.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/question.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/match.scss ***!
-  \*****************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/match.scss ./resources/sass/message.scss ./resources/sass/mypage.scss ./resources/sass/post.scss ./resources/sass/question.scss ***!
+  \**************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/ec2-user/environment/myapp/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/match.scss */"./resources/sass/match.scss");
+__webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/match.scss */"./resources/sass/match.scss");
+__webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/message.scss */"./resources/sass/message.scss");
+__webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/mypage.scss */"./resources/sass/mypage.scss");
+__webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/post.scss */"./resources/sass/post.scss");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/myapp/resources/sass/question.scss */"./resources/sass/question.scss");
 
 
 /***/ })

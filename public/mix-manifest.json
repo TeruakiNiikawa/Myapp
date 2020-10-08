@@ -1,5 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/match.css": "/css/match.css"
+    "/css/match.css": "/css/match.css",
+    "/css/message.css": "/css/message.css",
+    "/css/mypage.css": "/css/mypage.css",
+    "/css/post.css": "/css/post.css",
+    "/css/question.css": "/css/question.css"
 }
